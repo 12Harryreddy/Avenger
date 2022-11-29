@@ -2,6 +2,7 @@ body{
   background-color: #181818;
   margin: 0;
   position: absolute;
+  justify-content: center;
 }
 button{
   padding: 10px 20px 10px 20px;
@@ -11,7 +12,7 @@ button{
   color: white;
   cursor: pointer;
   border-radius: 8px;
-  transition: 0.35ms;
+  transition: 0.29ms;
   }
   button:hover{
     padding: 10px 20px 10px 20px;
@@ -20,6 +21,7 @@ button{
     background-color: white;
     color: #8758FF;
     cursor: pointer;
+    font-size: large;
   }
 
 .head{
@@ -29,7 +31,6 @@ cursor: pointer;
 margin-top: 125px;
 }
 img{
-  height: 100px;
   width: 100%;
   display: inline-block;
   background-color: #400D51;
